@@ -1,0 +1,345 @@
+.headerMenu {
+	float: right;
+	margin-top:50px;
+}
+
+
+.innerPage a {
+	color: gray;
+}
+
+.tagPhrase {
+	margin: 0;
+	text-align:center;
+	padding-top: 40px;
+	color: white #505050;
+	display: block;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.headerImage {
+	margin: 0 auto;
+	display: block;
+}
+
+.headerMenu ul li {
+	float:left;
+	margin-left: 20px;
+}
+
+.headerMenu ul li a {
+	color: white;
+}
+
+.headerMenu ul li a:hover {
+	color: rgb(200,200,200);
+}
+
+#headerNav {
+	margin: 0;
+	padding-top: 2px;	
+}
+
+#headerNav ul li {
+	float: left;
+	margin: 0 20px 0 0;
+	font-family: serif;
+	font-size: 18px;
+}
+
+#headerNav ul li a {
+	text-decoration: none;
+	color: rgb(150,150,150);
+}
+
+#headerNav ul li .active {
+	color: rgb(0,0,0);
+}
+
+.homeColumns {
+	background: url('../images/yellow_texture.jpg');
+	height: 470px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px gray;
+}
+
+.homeColumns p {
+	font-size: 14px;
+	color: rgb(80,80,80);
+	margin: 0;
+}
+
+.homeColumns h2 {
+	font-size:2.5em;
+	text-align:center;
+	color: rgb(80,80,80);
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration:none;
+}
+
+.homeColumn1, .homeColumn2, .homeColumn3 {
+	float: left;
+	width:190px;
+	background: white;
+	padding: 20px;
+	margin-top:70px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1); 
+	height: 96px;
+}
+
+
+.homeColumn1, .homeColumn2 {
+	margin-right: 50px;
+}
+
+.clearit {
+	clear:both;
+}
+
+.innerPage {
+	width: 960px;
+	margin: 40px auto;
+}
+
+
+.innerPage p {
+	font-size: 14px;
+}
+
+
+.innerPage h2 {
+	font-size: 32px;
+	margin: 10px 0;
+
+}
+
+.innerPage h3 {
+	color: rgb(100,100,100);
+}
+
+.feastColumn1 {
+	font-size:14px;
+	line-height:1.6;
+}
+
+.feastColumn1, .feastColumn2, .feastColumn3, .feastColumn4, .feastColumn5, .feastColumn6 {
+	width: 160px;
+	float:left;
+	height: 200px;
+}
+
+.spanCost {
+	font-size:50px;
+}
+
+.redButton {
+	display: block;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	color: white !important;
+	font-weight: bold;
+	background: rgb(149,43,25);
+	margin-top: 26px;
+	border-radius:10px;
+}
+
+.redButton:active {
+	background: #701E13;
+}
+
+footer {
+	margin: 50px auto 0;
+	width: 960px;
+	border: black solid 1px 0 0 0;
+	padding: 40px;
+	font-size:12px;
+	color: rgb(150, 150, 150);
+}
+
+footer a {
+	color: rgb( 200,200,200);
+}
+
+header {
+	display: block;
+	height: 109px;
+	background: url('../images/red_texture.jpg');
+}
+
+.title {
+	display: block;
+	width: 248px;
+	height: 133px;
+	text-indent: -9999px;
+	background: url('../images/logo.png');
+	margin: 0 0 -133px;
+	position: relative;
+}
+
+.headerBox {
+	width: 960px;
+	margin: 0 auto;
+	height: 109px;
+}
+
+.titleCook, .titleShare, .titleSave {
+	display:block;
+	width: 121px;
+	height: 51px;
+	text-indent: -9999px;
+	margin-top: 20px;
+}
+
+.titleCook {
+	background:url('../images/text_cook.png');
+}
+
+.titleShare {
+	background:url('../images/text_share.png');
+}
+
+.titleSave {
+	background: url('../images/text_save.png');
+}
+
+.imageIcon {
+	display: block;
+    margin-bottom: -40px;
+    margin-left: 170px;
+    margin-top: -42px;
+}
+
+.homeColumnsInner {
+	width: 790px;
+	margin: 0 auto;
+}
+
+.sliderBox {
+	clear:both;
+	width: 960px;
+	height: 212px;
+	overflow: hidden;
+}
+
+.sliderInner {
+	width: 4000px;
+	height: 212px;
+	margin-left: -1px;
+}
+
+.slide1, .slide2, .slide3 {
+	float:left;
+	height: 212px;
+	width: 497px;
+	margin: -21px 463px 0 0;
+}
+
+.slide1 {
+	background: url('../images/spread_pizza.png');
+}
+
+.slide2 {
+	background: url('../images/spread_share.png');
+}
+
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+
+.lasagnaBox {
+	display: block;
+	height: 300px;
+	overflow: hidden;
+}
+
+.stepBox {
+	border: 1px solid rgb(230,230,230);
+	background: rgb(245,245,245);
+	border-radius: 5px;
+	float: left;
+	width: 260px;
+	margin: 0 20px 20px 0;
+	padding: 10px;
+	height: 120px;
+}
+
+.stepBox h2 {
+	font-size: 20px;
+}
+
+.stepBox p {
+	font-size: 14px;
+}
+
+.slide3 {
+	background: url('../images/spread_bank.png');
+}
+
+.highlightedColumn {
+	box-shadow: 0px 0px 20px rgb(240,240,240);
+	border: 1px solid rgb(230,230,230);
+	padding: 19px;
+}
+
+.signupForm {
+	width: 550px;
+}
+
+.socialLinks {
+	float:right;
+}
+
+.line {
+	background-color: #969696;
+	color: #969696;
+	height: 1px;
+	margin-bottom: 10px;
+}
+
+.food1, .food2, .food3, .food4 {
+	display: block;
+	width: 144px;
+	height: 144px;
+}
+
+.food1 {
+	background: url('../images/food_1.png');
+}
+
+
+.food2 {
+	background: url('../images/food_2.png');
+}
+
+
+.food3 {
+	background: url('../images/food_3.png');
+}
+
+
+.food4 {
+	background: url('../images/food_4.png');
+}
+
+.description {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	width: 132px;
+	padding: 6px;
+	height:40px;
+	margin-top:-52px;
+}
+
+.tagline {
+	float:right;
+	margin-top:30px;
+	color: rgb(240,240,240);
+	font-weight:normal;
+}
