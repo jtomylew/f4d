@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="noindex" name="robots">
+<title>Feast for Days</title>
+<link href="./css/style.css" rel="stylesheet"/>
+<link href="./css/normalize.css" rel="stylesheet"/>
+<link href="/feed/" title="Site Name feed" type="application/atom+xml" rel="alternate"/>
+<link href="opensearch.xml" title="Site Name search" type="application/opensearchdescription+xml" rel="search"/>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+<section class="headerBox">
+<h1 class="title">Feast For Days</h1>
+<h2 class="tagline">Cook one meal. Take home four.</h2>
+</section>
+</header>
+<section class="homeColumns">
+<section class="homeColumnsInner">
+<section class="homeColumn1">
+<img class="imageIcon" src="images/icon_hat.png">
+<h2 class="titleCook">Cook</h2>
+<p>A team of people cook four bulk meals.</p>
+</section>
+<section class="homeColumn2">
+<img class="imageIcon" src="images/icon_share.png">
+<h2 class="titleShare">Share</h2>
+<p>Meals are divided among the team members to take home and eat throughout the week.</p>
+</section>
+<section class="homeColumn3">
+<img class="imageIcon" src="images/icon_bank.png">
+<h2 class="titleSave">Save</h2>
+<p> Time and money are saved.</p>
+</section>
+<section class="sliderBox">
+<section class="sliderInner" style="display: block;">
+<section class="slide1"></section>
+<section class="slide2"></section>
+<section class="slide3"></section>
+</section>
+</section>
+<a class="redButton" href="signup.html" style="margin-top:-90px; margin-left:620px">Learn More</a>
+</section>
+<script>
+function SlideThatSlider() {
+var sliderLeftMargin = parseInt($(".sliderInner").css("marginLeft"));
+if (sliderLeftMargin > -1920) {
+sliderLeftMargin = sliderLeftMargin - 960;
+}
+else {
+sliderLeftMargin = -1;
+}
+slideNumber = parseInt( (sliderLeftMargin * -1) / 960) + 1;
+$(".homeColumn1, .homeColumn2, .homeColumn3").removeClass("highlightedColumn");
+var currentColumn = ".homeColumn" + slideNumber;
+$(currentColumn).addClass("highlightedColumn");
+$(".sliderInner").fadeOut(1000, function(){
+$(".sliderInner").css("marginLeft", sliderLeftMargin+"px").fadeIn(1000);
+})
+QueThatSlider();
+}
+function QueThatSlider() {
+window.setTimeout (SlideThatSlider, 6000);
+}
+$(document).ready(function(){
+$(".homeColumn1").addClass("highlightedColumn");
+QueThatSlider();
+});
+</script>
+</section>
+<section class="clearit"></section>
+<section class="innerPage">
+<h3>Upcoming Feasts</h3>
+<h2>Hackberry Feast</h2>
+<section class="feastColumns">
+<section class="feastColumn1">
+Tuesday, Feb 25, 2012
+<br>
+1201 Hackberry St
+<br>
+7 PM to 9 PM
+</section>
+<section class="feastColumn2">
+	<section class="food1"></section>
+	<section class="description">Beef Stew</section>
+</section>
+<section class="feastColumn3">
+	<section class="food2"></section>
+	<section class="description">Spinach Lasagna</section>
+</section>
+<section class="feastColumn4">
+	<section class="food3"></section>
+	<section class="description">Chicken Noodle Casserole</section>
+</section>
+	<section class="feastColumn5">
+	<section class="food4"></section>
+	<section class="description">Mediterranean Pizza</section>
+</section>
+<section class="feastColumn6">
+<span class="spanCost">$30</span>
+<br>
+for 16 servings
+<a class="redButton" href="signup.html" >Sign Up</a>
+</section>
+<section class="clearit"></section>
+</section>
+</section>
+<footer>
+<section class="line"></section>
+<section class="clearit"></section>
+&copy; 2012 Feast For Days. All rights reserved.
+<span class="socialLinks">
+<a href="http://www.facebook.com/pages/Feast-For-Days/198369636927366">Facebook</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/feastfordays">Twitter</a>
+</span>
+</footer>
+</body>
+</html>
